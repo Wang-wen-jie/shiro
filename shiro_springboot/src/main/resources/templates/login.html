@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+<h1>
+    Shiro登录
+</h1>
+<form action="/myController/userLogin">
+    <div>
+        <label for="name"></label><input type="text" name="name" id="name" value="">
+    </div>
+    <div>
+        <label for="pwd">
+            <input type="password" name="pwd" id="pwd" value="">
+        </label>
+    </div>
+    <div>
+        记住用户：
+        <label for=""></label><input type="checkbox" name="rememberMe" id="" value="true">
+    </div>
+    <div>
+        <input type="submit" name="" id="登录">
+    </div>
+</form>
+</body>
+</html>
